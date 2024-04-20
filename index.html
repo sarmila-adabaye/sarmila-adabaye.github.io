@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portofolio</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-   <!-- NAVBAR MULAI-->
-   <div class="hero">
-       <nav>
-        <img src="logo/logo.png" alt="" class="logo">
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="Gallery.html">GALLERY</a></li>
-            <li><a href="Blog.html">BLOG</a></li>
-            <li><a href="contack.html">CONTACT ME</a></li>
-        </ul>
-        </nav>
-        <div class="detel">
-            <h3>Hello, It's Me</h3>
-            <span><h2>Sarmila Adabaye</h2></span>
-            <h3>And I'm</h3>
-            <p>a passionate 4th-semester student from the Informatics Program at Sam Ratulangi University.
-                Let's explore together my journey and creations!</p>
-   </div>
-   </div>
+  <!-- NAVBAR MULAI-->
+  <d class="hero">
+    <nav>
+      <img src="logo/logo.png" alt="" class="logo">
+      <ul>
+        <li><a href="#">BERANDA</a></li>
+        <li><a href="Gallery.html">GALERI</a></li>
+        <li><a href="Blog.html">BLOG</a></li>
+        <li><a href="contack.html">HUBUNGI SAYA</a></li>
+      </ul>
+    </nav>
+    <div class="detel">
+      <h3>Hello there!</h3>
+      <span><h2>I'm Sarmila Adabaye</h2></span>
+      <h3>and I'm...</h3>
+      <p>Driven by an insatiable curiosity for technology, I'm a 4th semester Informatics student at Sam Ratulangi University. Let's delve into the boundless realm of technology together!!</p>
+    </div>
+      
+    <script>
+        const detelDiv = document.querySelector('.detel');
+        detelDiv.addEventListener('mouseover', function() {
+          this.style.color = '#01909e'; 
+        });
+        detelDiv.addEventListener('mouseout', function() {
+          this.style.color = '#efef'; // 
+        });
+      </script> 
+      
 </body>
 </html>
